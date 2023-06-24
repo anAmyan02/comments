@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(228, 247, 234);
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            border: none;
+            
+        }
+        .firstDiv{
+            width: 200px;
+            background-color: aliceblue;   
+        }
+        .secondDiv{
+            width: 200px;
+            background-color: aliceblue;   
+            text-align: center;
+        }
+        div{
+            border: 3px green solid;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .sName{
+            height: 45px;
+        }
+        button{
+            background-color: green;
+            border-radius: 5px;
+            color: aliceblue;
+        }
+        p{
+            text-align: center;
+            color: green;
+            font-size: 16px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        input{
+            border: 3px green solid;
+            border-radius: 10px;
+        }
+        h2{
+            text-align: center;
+            margin-top: 8%;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Here would be some text</h2>
+    <div class="content">
+        <div class="firstDiv"><p>Your comments</p></div>
+        <div class="secondDiv">
+            <p>Name</p>
+            <input type="text" class="name" placeholder=" Enter your name">
+            <p>comment</p>
+            <input type="text" class="comment" placeholder=" Add your comment">
+            <hr>
+            <button>Send</button>
+        </div>
+        
+    </div>
+
+        <script src="comments.js"></script>
+</body>
+</html>
